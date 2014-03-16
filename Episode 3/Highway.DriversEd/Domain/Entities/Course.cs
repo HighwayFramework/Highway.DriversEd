@@ -6,5 +6,7 @@ namespace Domain.Entities
     {
         public ICollection<Driver> Students { get; set; }
         public Instructor Instructor { get; set; }
+        public string Name { get; set; }
+        
     }
 }
