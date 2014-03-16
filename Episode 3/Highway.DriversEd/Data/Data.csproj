@@ -61,11 +61,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DriverEd.cs" />
+    <Compile Include="DriversEdMappings.cs" />
     <Compile Include="Mappings\CourseGradeMap.cs" />
     <Compile Include="Mappings\CourseMap.cs" />
     <Compile Include="Mappings\StudentMap.cs" />
     <Compile Include="Mappings\InstructorMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queries\AllCourses.cs" />
+    <Compile Include="Queries\CourseByName.cs" />
+    <Compile Include="Queries\DeleteCourse.cs" />
+    <Compile Include="Queries\InstructorsByCourseCount.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj">
